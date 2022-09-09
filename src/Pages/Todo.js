@@ -35,7 +35,7 @@ function Todo() {
 
 	return (
 		<div style={{ width: 500 }} className="bg-light shadow p-4 rounded text-primary">
-			<p className="alert alert-primary small">Ez a projekt localstorageban tárol egy "db-t" és egy CRUD-ot valósít meg. Igaz a gyorsítás miatt udate nélkül.</p>
+			<p className="alert alert-primary small">Ez a projekt localstorageban tárol egy "db-t", és egy CRUD-ot valósít meg. Igaz a gyorsítás miatt update nélkül.</p>
 
 			<h6>New</h6>
 			<input onKeyPress={handleAdd} type="text" placeholder="text + enter" className="shadow form-control mb-4" />
